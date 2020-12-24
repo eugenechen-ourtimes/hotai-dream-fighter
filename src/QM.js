@@ -60,7 +60,7 @@ class QM extends Component { //Q&M
                        justifyContent: "center",}}>
             <img src={this.props.qPhoto}
                  alt="question"
-                 width="350" height="620"
+                 height="100%"
                  style={{position: 'absolute', zIndex: '1',}}/>
           </div>
           :
@@ -86,8 +86,8 @@ class QM extends Component { //Q&M
               <button onClick={this.props.answer === 'a' ? this.handleClickCorrectAnswer : this.handleClickWrongAnswer}
                       style={{backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '55%',
-                              width: '200px', height:'80px',
-                              border:'none'
+                              width: '100%', height:'7%',
+                              /*border:'none'*/
                              }}>
                 {/*A: {this.props.a}*/}
               </button>
@@ -97,8 +97,9 @@ class QM extends Component { //Q&M
               <button onClick={this.props.answer === 'b' ? this.handleClickCorrectAnswer : this.handleClickWrongAnswer}
                       style={{backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '65%',
-                              width: '200px', height:'80px',
-                              border:'none'}}>
+                              width: '100%', height:'7%',
+                              /*border:'none'*/
+                             }}>
                 {/*B: {this.props.b}*/}
               </button>
             </div>
@@ -106,9 +107,10 @@ class QM extends Component { //Q&M
                          justifyContent: "center",}}>
               <button onClick={this.props.answer === 'c' ? this.handleClickCorrectAnswer : this.handleClickWrongAnswer}
                       style={{backgroundColor: 'transparent',
-                              position: 'absolute', zIndex: '2', top: '75%',
-                              width: '200px', height:'80px',
-                              border:'none'}}>
+                              position: 'absolute', zIndex: '2', top: '74%',
+                              width: '100%', height:'7%',
+                              /*border:'none'*/
+                             }}>
                 {/*C: {this.props.c}*/}
               </button>
             </div>
