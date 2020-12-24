@@ -9,7 +9,7 @@ class App extends Component {
       showLink: true,
     };
     this.hideLink = this.hideLink.bind(this);
-    this.testing = true; //If we are testing now?
+    this.testing = false; //If we are testing now?
   }
 
   hideLink() {

@@ -28,7 +28,7 @@ class Introduction extends Component { //Introduction
                          justifyContent: "center",}}>
               <img src={this.props.iPhoto}
                    alt="introduction"
-                   width="350" height="620"
+                   height="100%"
                    style={{position: 'absolute', zIndex: '1',}}/>
             </div>
             :
@@ -46,9 +46,10 @@ class Introduction extends Component { //Introduction
                       <button onClick={this.handleClickNextPage}
                               type = "button"
                               style={{backgroundColor: 'transparent',
-                                      position: 'absolute', zIndex: '2', top: '87%',
-                                      width: '200px', height:'100px',
-                                      border:'none'}}>
+                                      position: 'absolute', zIndex: '2', top: '88%',
+                                      height:'5%',
+                                      width: '100%',
+                                      /*border:'none'*/}}>
                         {/*下一頁*/}
                       </button>
                     </div>
