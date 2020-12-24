@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 
 class M extends Component { //M
-  constructor(props) {
-	super(props);
-
-	}
-
     render() {
 	  return (
 		<p>

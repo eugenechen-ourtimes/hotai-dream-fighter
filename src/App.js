@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import Introduction from './Introduction';
-import QM from './QM';
 
 class App extends Component {
   constructor(props) {
@@ -86,7 +85,7 @@ class App extends Component {
                                                                       cityPhoto={require('./cityPhoto_順化市.png')}
                                                                       width="189"
                                                                       height="109.8" 
-                                                                      styleTop="35%"                                                                     styleTop="35%"
+                                                                      styleTop="35%"
                                                                       cityIntroduction='順化曾是許多古王朝的首都，有大量的歷史建築，例如舊時的京城跟皇宮，同時也是聯合國教科文組織世界遺產之一。' {...props} /> } / >
             <Route exact path="/i5" render={ (props) => <Introduction question="/q5"
                                                                       cityName='海防市'
