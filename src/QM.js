@@ -42,7 +42,7 @@ class QM extends Component { //Q&M
                        justifyContent: "center",}}>
             <img src={this.props.cPhoto}
                  alt="Correct"
-                 width="350" height="620"
+                 height="100%"
                  style={{position: 'absolute', zIndex: '1',}}/>
           </div>
           :
@@ -51,7 +51,7 @@ class QM extends Component { //Q&M
                        justifyContent: "center",}}>
             <img src={this.props.wPhoto}
                  alt="Wrong"
-                 width="350" height="620"
+                 height="100%"
                  style={{position: 'absolute', zIndex: '1',}}/>
           </div>
           :
@@ -69,7 +69,7 @@ class QM extends Component { //Q&M
                        justifyContent: "center",}}>
             <img src={this.props.mPhoto}
                  alt="question"
-                 width="350" height="620"
+                 height="100%"
                  style={{position: 'absolute', zIndex: '1',}}/>
           </div>
           :
@@ -124,8 +124,8 @@ class QM extends Component { //Q&M
                       type = "button"
                       style={{backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '75%',
-                              width: '200px', height:'100px',
-                              border:'none'}}>
+                              width: '100%', height:'7%',
+                              /*border:'none'*/}}>
                 {/*下一頁*/}
               </button>
             </div>
