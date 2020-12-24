@@ -87,7 +87,7 @@ class QM extends Component { //Q&M
                       style={{backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '58%',
                               width: '100%', height:'7%',
-                              /*border:'none'*/
+                              border:'none',
                              }}>
                 {/*A: {this.props.a}*/}
               </button>
@@ -98,7 +98,7 @@ class QM extends Component { //Q&M
                       style={{backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '68%',
                               width: '100%', height:'7%',
-                              /*border:'none'*/
+                              border:'none',
                              }}>
                 {/*B: {this.props.b}*/}
               </button>
@@ -109,7 +109,7 @@ class QM extends Component { //Q&M
                       style={{backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '77%',
                               width: '100%', height:'7%',
-                              /*border:'none'*/
+                              border:'none',
                              }}>
                 {/*C: {this.props.c}*/}
               </button>
@@ -126,13 +126,13 @@ class QM extends Component { //Q&M
                               {backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '80%',
                               width: '100%', height:'7%',
-                              /*border:'none'*/
+                              border:'none',
                               }
                               :
                               {backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '78%',
                               width: '100%', height:'7%',
-                              /*border:'none'*/
+                              border:'none',
                               }
                             }>
                 {/*下一頁*/}

@@ -44,7 +44,7 @@ class Ending extends Component { //Ending
                     style={{backgroundColor: 'transparent',
                             position: 'absolute', zIndex: '2', top: '88%',
                             width: '100%', height:'7%',
-                            /*border:'none'*/}}>
+                            border:'none'}}>
               下一頁
             </button>
             :

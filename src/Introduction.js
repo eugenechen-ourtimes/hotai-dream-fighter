@@ -49,7 +49,7 @@ class Introduction extends Component { //Introduction
                                       position: 'absolute', zIndex: '2', top: '91%',
                                       height:'5%',
                                       width: '100%',
-                                      /*border:'none'*/}}>
+                                      border:'none'}}>
                         {/*下一頁*/}
                       </button>
                     </div>
