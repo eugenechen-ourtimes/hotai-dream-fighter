@@ -85,7 +85,7 @@ class QM extends Component { //Q&M
                          justifyContent: "center",}}>
               <button onClick={this.props.answer === 'a' ? this.handleClickCorrectAnswer : this.handleClickWrongAnswer}
                       style={{backgroundColor: 'transparent',
-                              position: 'absolute', zIndex: '2', top: '55%',
+                              position: 'absolute', zIndex: '2', top: '58%',
                               width: '100%', height:'7%',
                               /*border:'none'*/
                              }}>
@@ -96,7 +96,7 @@ class QM extends Component { //Q&M
                          justifyContent: "center",}}>
               <button onClick={this.props.answer === 'b' ? this.handleClickCorrectAnswer : this.handleClickWrongAnswer}
                       style={{backgroundColor: 'transparent',
-                              position: 'absolute', zIndex: '2', top: '65%',
+                              position: 'absolute', zIndex: '2', top: '68%',
                               width: '100%', height:'7%',
                               /*border:'none'*/
                              }}>
@@ -107,7 +107,7 @@ class QM extends Component { //Q&M
                          justifyContent: "center",}}>
               <button onClick={this.props.answer === 'c' ? this.handleClickCorrectAnswer : this.handleClickWrongAnswer}
                       style={{backgroundColor: 'transparent',
-                              position: 'absolute', zIndex: '2', top: '74%',
+                              position: 'absolute', zIndex: '2', top: '77%',
                               width: '100%', height:'7%',
                               /*border:'none'*/
                              }}>
@@ -123,7 +123,7 @@ class QM extends Component { //Q&M
               <button onClick={this.handleClickNextPage}
                       type = "button"
                       style={{backgroundColor: 'transparent',
-                              position: 'absolute', zIndex: '2', top: '75%',
+                              position: 'absolute', zIndex: '2', top: '78%',
                               width: '100%', height:'7%',
                               /*border:'none'*/}}>
                 {/*下一頁*/}

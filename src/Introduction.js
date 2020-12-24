@@ -46,7 +46,7 @@ class Introduction extends Component { //Introduction
                       <button onClick={this.handleClickNextPage}
                               type = "button"
                               style={{backgroundColor: 'transparent',
-                                      position: 'absolute', zIndex: '2', top: '88%',
+                                      position: 'absolute', zIndex: '2', top: '91%',
                                       height:'5%',
                                       width: '100%',
                                       /*border:'none'*/}}>

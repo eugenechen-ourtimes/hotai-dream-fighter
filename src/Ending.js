@@ -42,7 +42,7 @@ class Ending extends Component { //Ending
             <button onClick={this.handleClickNextPage}
                     type = "button"
                     style={{backgroundColor: 'transparent',
-                            position: 'absolute', zIndex: '2', top: '85%',
+                            position: 'absolute', zIndex: '2', top: '88%',
                             width: '100%', height:'7%',
                             /*border:'none'*/}}>
               下一頁
