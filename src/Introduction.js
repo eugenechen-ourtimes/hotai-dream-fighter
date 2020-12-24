@@ -89,6 +89,7 @@ class Introduction extends Component { //Introduction
                                                               {...props} /> } />
               <Route exact path="/q5" render={ (props) => <QM mission={true}
                                                               answer='c'
+                                                              exception={true}
                                                               qPhoto={require('./q5.png')}
                                                               cPhoto={require('./c5.png')}
                                                               wPhoto={require('./w5.png')}

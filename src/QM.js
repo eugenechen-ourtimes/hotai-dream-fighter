@@ -122,10 +122,19 @@ class QM extends Component { //Q&M
                          justifyContent: "center",}}>
               <button onClick={this.handleClickNextPage}
                       type = "button"
-                      style={{backgroundColor: 'transparent',
+                      style={ this.props.exception === true ?
+                              {backgroundColor: 'transparent',
+                              position: 'absolute', zIndex: '2', top: '80%',
+                              width: '100%', height:'7%',
+                              /*border:'none'*/
+                              }
+                              :
+                              {backgroundColor: 'transparent',
                               position: 'absolute', zIndex: '2', top: '78%',
                               width: '100%', height:'7%',
-                              /*border:'none'*/}}>
+                              /*border:'none'*/
+                              }
+                            }>
                 {/*下一頁*/}
               </button>
             </div>
