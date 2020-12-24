@@ -31,8 +31,7 @@ class Ending extends Component { //Ending
                                               require('./wrong.png')
                    }
                alt="Ending"
-               width="350"
-               height="620"
+               height="100%"
                style={{position: 'absolute', zIndex: '1',}}>
           </img>
         </div>
@@ -41,9 +40,9 @@ class Ending extends Component { //Ending
           <button onClick={this.handleClickNextPage}
                   type = "button"
                   style={{backgroundColor: 'transparent',
-                          position: 'absolute', zIndex: '2', top: '75%',
-                          width: '200px', height:'100px',
-                          border:'none'}}>
+                          position: 'absolute', zIndex: '2', top: '85%',
+                          width: '100%', height:'7%',
+                          /*border:'none'*/}}>
             下一頁
           </button>
         </div>
