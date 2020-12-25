@@ -24,10 +24,10 @@ class Ending extends Component { //Ending
         <div style={{display: "flex",
                      justifyContent: "center",}}>
           <img src={
-                     this.state.count === 1 ? require('./1.png') :
-                     this.state.count === 2 ? require('./2.png') :
-                     this.state.count === 3 ? require('./3.png') :
-                     this.state.count === 4 ? require('./4.png') :
+                     this.state.count === 1 ? require('./comics01.png') :
+                     this.state.count === 2 ? require('./comics02.png') :
+                     this.state.count === 3 ? require('./comics03.png') :
+                     this.state.count === 4 ? require('./comics04.png') :
                                               require('./wrong.png')
                    }
                alt="Ending"
@@ -37,14 +37,19 @@ class Ending extends Component { //Ending
         </div>
         <div style={{display: "flex",
                      justifyContent: "center",}}>
-          <button onClick={this.handleClickNextPage}
-                  type = "button"
-                  style={{backgroundColor: 'transparent',
-                          position: 'absolute', zIndex: '2', top: '85%',
-                          width: '100%', height:'7%',
-                          /*border:'none'*/}}>
-            下一頁
-          </button>
+          {
+            this.state.count < 4 ?
+            <button onClick={this.handleClickNextPage}
+                    type = "button"
+                    style={{backgroundColor: 'transparent',
+                            position: 'absolute', zIndex: '2', top: '85%',
+                            width: '100%', height:'7%',
+                            /*border:'none'*/}}>
+              下一頁
+            </button>
+            :
+            <div></div>
+          }
         </div>
       </div>
     );

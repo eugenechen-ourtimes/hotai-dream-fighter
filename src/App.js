@@ -75,7 +75,7 @@ class App extends Component {
                                                                       iPhoto={require('./i5.png')}
                                                                       {...props} /> } / >
             <Route exact path="/i6" render={ (props) => <Introduction question="/ending"
-                                                                      iPhoto={require('./introduction.png')}
+                                                                      iPhoto={require('./i6.png')}
                                                                       {...props} /> } / >
           </Switch>
         </div>
